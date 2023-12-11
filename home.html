@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cringe Gamerz</title>
+    <link rel="icon" href="C:\Users\Sucheta\OneDrive\Desktop\valoweb\Games-Valorant-1024x1024.png" type="image/icon type">
+    <style>
+        
+        body {
+            font-family: Arial Black, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+	    font-size:18px;
+        }
+
+        header {
+            background-color: #ff4654;
+            color: #000;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #000;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ff4654;
+            color: #000;
+        }
+
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+        }
+
+        .mySlides {
+            display: none;
+            animation: fade 5s ease-in-out infinite; /* Adjust the duration as needed */
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        @keyframes fade {
+            0%, 100% {
+                opacity: 0;
+            }
+            20%, 80% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1><style="background-color: #ff4654; color: #000; padding: 1em; text-align: center; font-family:Tungsten, DIN Next, FF Mark, Proxima Nova, Arial">VALORANT PORTFOLIO</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#links">Links</a>
+    </nav>
+
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <img src="C:\Users\Sucheta\OneDrive\Desktop\valoweb\jett home.jpeg" alt="Slide 1">
+        </div>
+
+        <div class="mySlides">
+            <img src="C:\Users\Sucheta\OneDrive\Desktop\valoweb\WATCH THIS SLIDE SHOW.jpeg" alt="Slide 2">
+        </div>
+
+        <!-- Add more slides as needed -->
+    </div>
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 5000); // Change slide every 5 seconds (adjust as needed)
+        }
+  
+
+    </script>
+
+    <div id="home" class="content">
+        <h2>Hello!</h2>
+        <p>Visit our vaious tabs and enjoy some crazy gameplay.</p>
+    </div>
+
+    <div id="about" class="content">
+        <h2>About</h2>
+        <p>Watch these gamers redefine the game of Valorant with his unique and insane strategies and gameplay.</p>
+    </div>
+
+    <div id="links" class="content">
+        <h2>Links</h2>
+	
+
+        <p>Youtube : <a href="https://www.youtube.com/@kazukaiser8534">@kazukaiser</a></p>
+    </div>
+
+</body>
+</html>
