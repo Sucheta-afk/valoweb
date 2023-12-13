@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            margin: 0;
+            
+color: #FFFFFF; /* Black text color */
+            text-align: left;
+            padding: 20px;
+            font-family: 'Arial', sans-serif;
+            background-color: #000000; /* Red background color for body */
+        }
+
+        header {
+            background-color: #ff4654; /* Valo Red background color for header */
+            color: #000000; /* Black text color */
+            text-align: center;
+            padding: 20px;
+        }
+
+	head1 {font-size: 2;
+            background-color: #000000; /* Valo Red background color for header */
+            color: #FFFFFF; /* Black text color */
+            text-align: left;
+            padding: 0px;
+        }
+        main {
+            background-color: #000000; /* Black background color for main */
+            
+            
+            align-items: left;
+            justify-content: left;
+            color: #FFFFFF; /* Text color */
+            font-family: 'Arial', sans-serif;
+        }
+
+        h1 {
+            font-size: 2em;
+            text-align: center;
+        }
+
+
+        
+
+        video {
+            width: 900px; /* Adjust the width as needed */
+            height: 500px; /* Adjust the height as needed */
+        }
+
+
+
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+    <h1><b>LINKS</h1>
+</header>
+
+<body>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="C:\Users\Sucheta\OneDrive\Desktop\valoweb\home.html">Home</a>
+  <a href="C:\Users\Sucheta\OneDrive\Desktop\valoweb\home.html">About</a>
+  <a href="C:\Users\Sucheta\OneDrive\Desktop\valoweb\Links.html">Links</a>
+  <a href="#">Merch</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰</button>  
+  
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+
+</head>
+<body>
+
+
+
+<h1>
+    <video width="1000" height="600" controls autoplay muted>
+        <source src="C:\Users\Sucheta\OneDrive\Desktop\valoweb\yt vid.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+
+</h1>
+
+
+	
+
+        <h1>Youtube : <a href="https://www.youtube.com/@kazukaiser8534">@kazukaiser</a></h1>
+  
+
+</body>
+</html>
